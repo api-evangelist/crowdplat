@@ -1,7 +1,26 @@
 aid: crowdplat
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crowdplat.png
 name: Crowdplat
-description: Crowdplat is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: CrowdPlat, Inc. is a Pleasanton, California company (backed by 500 Global)
+  that operates two platforms combining human expertise with AI. Its crowdsourcing
+  marketplace connects enterprises with vetted specialists across 50+ countries for
+  consulting, software development, R&D, and innovation challenges, delivered with
+  US-based project management and milestone-driven scopes. Its AI Hire platform is
+  recruitment technology that automates candidate evaluation through resume scoring,
+  AI-generated screening questions, video interviews, and LinkedIn job promotion with
+  auto-targeted outreach. Customers include federal agencies and enterprises such as
+  Airbus, PayPal, and EPRI. No public developer/API program is published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/crowdplat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Crowdsourcing
+- Recruitment
+- Hiring
+- Artificial Intelligence
+- Talent Marketplace
+- Software Development
+- Consulting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/crowdplat-domain-security.yml
 - type: Website
   url: https://crowdplat.com
+- type: SignUp
+  url: https://hire.crowdplat.com/recruitment-admin/sign-up?account_type=premium_trial
+- type: TermsOfService
+  url: https://crowdplat.com/terms.html
+- type: PrivacyPolicy
+  url: https://crowdplat.com/privacy.html
+- type: Support
+  url: https://crowdplat.com/contact-us.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
