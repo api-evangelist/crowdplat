@@ -1,0 +1,27 @@
+# Front Door AI Index — crowdplat — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: crowdplat
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: crowdplat.com
+  final_host: www.crowdplat.com
+  ownership: own
+  owner: crowdplat
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 58
+  host_score: 58
+  density: 34.59
+  words: 1677
+  tiers:
+    agentic: 1
+    core: 57
+    model: 0
+  ambiguous: 5
+  top_terms:
+    AI: 57
+    intelligence: 5
+    embedding: 1
